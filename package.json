@@ -13,5 +13,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "fuse.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
