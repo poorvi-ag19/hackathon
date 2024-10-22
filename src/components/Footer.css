@@ -1,0 +1,47 @@
+/* Footer.css */
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .footer-column {
+    padding: 10px;
+  }
+  
+  .footer-logo {
+    width: 150px;
+  }
+  
+  .footer-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .footer-column h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column p,
+  .footer-column ul {
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    margin-bottom: 10px;
+  }
+  

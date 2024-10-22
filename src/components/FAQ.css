@@ -1,0 +1,132 @@
+/* FAQ.css */
+
+.faq-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 0 100px;
+    gap: 20px;
+  }
+  
+  .faq-search {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: left;
+  }
+  
+  .faq-search h1 {
+    margin-bottom: 10px;
+  }
+  
+  .faq-search input {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .faq-popular {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  
+  .faq-popular h2 {
+    margin-bottom: 10px;
+  }
+  
+  .popular-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .faq-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .faq-card:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .answer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .faq-categories {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  .faq-categories h2 {
+    margin-bottom: 10px;
+  }
+  
+  .category-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background-color: orange;
+    padding: 20px;
+ 
+    font-size: 16px;
+    text-align: left;
+    border-radius: 8px;
+    margin-top: 20px;
+     min-height: 300px;
+     margin-left: 40px;
+     margin-right: 100px;
+  }
+  
+  
+  .category-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-item.active,
+  .category-item:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .faq-category-questions {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .faq-category-questions h2 {
+    margin-bottom: 10px;
+  }
+  
+  .category-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

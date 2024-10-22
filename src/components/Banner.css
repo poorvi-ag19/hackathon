@@ -1,0 +1,51 @@
+/* src/components/Banner.css */
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+  }
+  
+  .banner-content h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .apply-now-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-now-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,34 @@
+.search-results {
+  position: absolute;   /* Positioned relative to the nearest positioned ancestor (usually the body) */
+  top: 60px;            /* Adjust this value based on your header height */
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000;        /* High z-index to ensure it appears above other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add a shadow to make it stand out */
+  border-radius: 8px;
+  padding: 10px;
+  max-height: 300px;    /* Limit height to avoid overflow */
+  overflow-y: auto;     /* Allow scrolling if results exceed max height */
+}
+
+.search-result-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-result-item h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.search-result-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Optional: Add a background blur to content behind search results */
+.blur-background {
+  filter: blur(5px);
+}
