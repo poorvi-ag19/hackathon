@@ -5,6 +5,7 @@ function Header() {
     // State to store the search query and results
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
+    const API_URL = 'http://localhost:3000/api';
 
     // Function to fetch search results from the backend
     const fetchSearchResults = async (query) => {
