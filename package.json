@@ -1,5 +1,6 @@
 {
   "name": "final",
+<<<<<<< HEAD
   "version": "0.1.0",
   "homepage": "https://poorvi-ag19.github.io/hackathon",
   "private": true,
@@ -37,6 +38,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "fuse.js": "^7.0.0"
+>>>>>>> d46e122552cfc89483459db5dda013672d4b99bd
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
